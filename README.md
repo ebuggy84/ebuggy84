@@ -58,7 +58,7 @@ In progress: CompTIA PenTest+
 📫 Connect
 
 
-LinkedIn: linkedin.com/in/emilioburgohy
+LinkedIn: www.linkedin.com/in/emilioburgohy1984
 Location: Tampa, FL
 
 
