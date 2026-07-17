@@ -1,77 +1,66 @@
-<div align="center">
+<h1 align="center">Emilio Burgohy</h1>
+<p align="center">
+  <strong>Security Analyst · U.S. Army Veteran · Builder of Open-Source Security Tools</strong>
+</p>
+<p align="center">
+  Microsoft Security · Detection Engineering · GRC · Reconnaissance
+</p>
 
-# Hey, I'm Emilio Burgohy 👋
-### Cybersecurity Analyst | SOC Operations | Detection Engineering
+👋 About
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin)](https://linkedin.com/in/emilioburgohy198)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail)](mailto:emilioburgohy@gmail.com)
-[![Security+](https://img.shields.io/badge/CompTIA-Security%2B-FF0000?style=flat-square)](https://www.comptia.org/)
-[![CySA+](https://img.shields.io/badge/CompTIA-CySA%2B-FF0000?style=flat-square)](https://www.comptia.org/)
+Security analyst and U.S. Army signal veteran (25L, E5/SGT) focused on cybersecurity operations, detection engineering, and governance/risk/compliance. I investigate live incidents across Microsoft Defender XDR, Sentinel, and eSentire MDR by day, and build open-source security tooling by night.
 
-</div>
+Currently pursuing an MS in Cybercrime & Digital Forensics (3.87 GPA) on top of a BS in Cybersecurity.
 
----
+I build tools to sharpen my own skills — then open-source them so the security community can use and improve them.
 
-## 🪖 About Me
 
-US Army Veteran (9 years · 25L Communications · Honorable Discharge) turned Cybersecurity professional. I build and operate a production-grade home SOC that bridges on-premise infrastructure with Microsoft Sentinel in the cloud — the same hybrid architecture used in enterprise environments.
+🛠️ Featured Projects
 
-- 🎓 **BS Cybersecurity** — Saint Petersburg College
-- 🎓 **MS Cybercrime & Digital Forensics** (In Progress) — University of South Florida
-- 🛡️ **Microsoft Student Ambassador** — AI Security track
-- 📍 **Florida** | Open to remote & hybrid roles
-- 🔐 Security Clearance eligible (Secret — eligible for reinstatement)
+BSS Recon — Open-source security reconnaissance platform
 
----
 
-## 🔧 Tech Stack
+19 scanning modules (Nmap, Nuclei, subdomain enumeration, JS secret scanning, WAF detection, and more), a real-time web dashboard with attack-surface scoring, OWASP/MITRE ATT&CK mapping on every finding, and automated PDF reporting. One-command Docker install. Built with Python, FastAPI, and React.
 
-**SIEM & Detection**
-`Microsoft Sentinel` `Wazuh` `Security Onion` `Splunk` `Rapid7 InsightIDR`
 
-**Languages & Query**
-`KQL` `PowerShell` `Python` `Bash`
 
-**Infrastructure**
-`Proxmox VE` `Active Directory` `WireGuard` `Unifi` `Azure`
+BSS CA Checker — M365 Conditional Access compliance auditor
 
-**Security Tools**
-`OpenVAS` `Kali Linux` `Wireshark` `FTK Imager` `Sysmon`
 
----
+Microsoft Graph API tool that audits Conditional Access policies against the CIS Microsoft 365 Foundations Benchmark and produces a prioritized gap-analysis report.
 
-## 🚀 Featured Project
 
-### 🛡️ [Hybrid SOC Home Lab](https://github.com/ebuggy84/hybrid-soc-lab)
 
-> Operational SOC bridging 320GB on-premise Proxmox cluster to Microsoft Sentinel via WireGuard tunnel. Real detection rules, real incidents, real investigations.
+Hybrid SOC Home Lab — Detection engineering & incident response
 
-- 3-node Proxmox cluster (320GB RAM) running Wazuh, OpenVAS, Active Directory
-- Encrypted WireGuard tunnel — zero open ports to the internet
-- Custom KQL detection rules mapped to MITRE ATT&CK
-- Full incident response runbooks following NIST SP 800-61
-- Threat simulation exercises using Kali Linux to validate detections
 
----
+Proxmox cluster running Windows Server AD, Microsoft Sentinel, Security Onion, and Wazuh, with documented Purple Team detection scenarios and incident response runbooks.
 
-## 📊 GitHub Stats
 
-<div align="center">
 
-![Emilio's GitHub Stats](https://github-readme-stats.vercel.app/api?username=ebuggy84&show_icons=true&theme=dark&hide_border=true)
 
-</div>
+🔧 Tech & Tools
 
----
+Security: Microsoft Sentinel (KQL) · Defender XDR · eSentire MDR · Intune · Entra ID · Automox · Nmap · Nuclei · Burp Suite · Metasploit
 
-## 🎯 Currently
+Development: Python · PowerShell · FastAPI · React · Microsoft Graph API · Git
 
-- 📚 Studying for **CySA+** exam
-- 🔨 Building out **KQL Analytics Rules** in Microsoft Sentinel
-- 🎯 Seeking **SOC Analyst / Security Operations** roles
+Frameworks: MITRE ATT&CK · OWASP Top 10 · NIST 800-53 · CIS Benchmarks · SOC 2
 
----
 
-<div align="center">
-<sub>💬 Always open to connecting with other security professionals</sub>
-</div>
+📜 Certifications
+
+CompTIA Security+ (SY0-701) · CompTIA CySA+ · CompTIA Network+ · ISC2 Certified in Cybersecurity (CC)
+
+In progress: CompTIA PenTest+
+
+
+📫 Connect
+
+
+LinkedIn: linkedin.com/in/emilioburgohy
+Location: Tampa, FL
+
+
+
+<p align="center"><em>Building toward a career at the intersection of offensive security and GRC.</em></p>
